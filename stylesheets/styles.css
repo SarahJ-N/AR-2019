@@ -116,26 +116,14 @@ font-style: normal;
   padding: 2vw;
 }
 
-.columnImage {
-  position: absolute;
-  height:auto;
-  width:40vw;
-
-}
-
-
-@media screen and (max-width: 600px) {
-  .columnImage {
-    position: absolute;
-    height:auto;
-    width:90vw;
-  }
-}
-
 .supportingD {
 margin-top:50px;
 margin-bottom:50px;
 
+}
+
+.numbersList {
+  font-weight:300;
 }
 
 @media screen and (max-width: 600px) {
@@ -342,11 +330,12 @@ figure {
 }
 
 .topFiveCon {
-  background-color:#34b993;
-  padding:50px 50px 50px 100px;
+  background-color:#50bf9c;
+  padding:50px 100px 50px 120px;
   margin-top:50px;
   margin-bottom:30px;
 }
+
 
 .topFive {
   margin-left: auto;
