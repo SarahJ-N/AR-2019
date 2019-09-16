@@ -49,10 +49,6 @@ font-style: normal;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-.col-sm-6 {
-  position: relative;
-  width: 95%;
-}
 
 .imgLeft {
   margin-bottom: 10px;
@@ -62,39 +58,6 @@ font-style: normal;
   margin-bottom: 10px;
 }
 
-
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-    position: relative;
-    height: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.col-xs-15 {
-    width: 20%;
-    float: left;
-}
-@media screen and (min-width: 768px) {
-.col-sm-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media screen and (min-width: 992px) {
-    .col-md-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media screen and (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
-    }
-}
 
 .hightlightsSection {
   -ms-flex:1;
@@ -108,7 +71,25 @@ font-style: normal;
 
 
 .highlightsCopy {
-  padding-right: 3vw;
+  display:block;
+  margin:auto;
+  width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  .highlightsCopy {
+    display:block;
+    margin:auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .highlightsCopy {
+    display:block;
+    margin:auto;
+    width: 100%;
+  }
 }
 
 .dollars {
@@ -2950,15 +2931,16 @@ h1 {
   line-height:1.2em;
 }
 
+.highlightCol svg{
+  display:block;
+  margin:auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
 @media screen and (max-width: 600px) {
   .Sub-2019 {
     margin-top:10px;
-  }
-  .circleHighlights {
-    margin-top:20px;
-  }
-  .doubleCircle {
-    margin-top:20px;
   }
 }
 
@@ -2967,13 +2949,6 @@ h1 {
     font-size: 2em;
     line-height:1.2em;
     margin-top:10px;
-  }
-
-  .circleHighlights {
-    margin-top:20px;
-  }
-  .doubleCircle {
-    margin-top:20px;
   }
 }
 
