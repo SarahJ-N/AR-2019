@@ -1,7 +1,7 @@
 
 @font-face {
 font-family: 'Whitney';
-src: url('/fonts/Whitney-Light.woff2') format('woff2'), 
+src: url('/fonts/Whitney-Light.woff2') format('woff2'),
   url('/fonts/Whitney-Light.woff') format('woff');
 font-weight: 300;
 font-style: normal;
@@ -12,6 +12,12 @@ src: url('/fonts/Whitney-LightItalic.woff2') format('woff2'),
   url('/fonts/Whitney-LightItalic.woff') format('woff');
 font-weight: 300;
 font-style: italic;
+}
+@font-face {
+font-family: 'Whitney';
+src: url('/fonts/Whitney-Book-Bas.woff') format('woff');
+font-weight: 350;
+font-style: normal;
 }
 @font-face {
 font-family: 'Whitney';
@@ -98,6 +104,14 @@ font-style: normal;
     margin:auto;
     width: 100%;
   }
+}
+
+.headerSub {
+  font-family: Whitney;
+  font-weight: 300;
+  color: #00bac1;
+  font-size: 50px;
+  line-height: 1.5em;
 }
 
 .dollars {
@@ -980,11 +994,11 @@ a {
 a,
 a:link,
 a:visited {
-  color: #265c83
+  color: #000
 }
 
 a:hover {
-  color: #7fdbff
+  color: #166da9
 }
 
 a:active {
@@ -999,6 +1013,7 @@ a:active {
 h1 {
   font-size: 36px
 }
+
 
 h2 {
   font-size: 30px
@@ -2921,10 +2936,11 @@ a:hover {
 
 h1 {
   font-family: Whitney;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 50px;
   line-height: 1.5em
 }
+
 
 .underline_H1 {
   border-bottom: 1px solid currentColor;
@@ -3032,7 +3048,7 @@ a:link {
 }
 
 .chair-overview a:hover {
-    color: #e5604f;
+    color: #166da9;
     text-decoration: underline
 }
 
